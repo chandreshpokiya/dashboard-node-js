@@ -1,0 +1,64 @@
+<!-- ============================================================== -->
+<!-- Preloader - style you can find in spinners.css -->
+<!-- ============================================================== -->
+<!-- ============================================================== -->
+<!-- Login box.scss -->
+<!-- ============================================================== -->
+<div class="page-wrapper d-flex no-block justify-content-center align-items-center bg-dark"
+  style="height: calc(100vh);">
+
+  <div class="auth-box bg-dark border-top border-secondary">
+    <div>
+      <div class="text-center pt-3 pb-3">
+        <span class="db"><img src="/images/logo.png" alt="logo" /></span>
+      </div>
+      <!-- Form -->
+      <form class="form-horizontal mt-3" method="post" action="/admin/registerAdmin">
+        <div class="row pb-4">
+          <div class="col-12">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-success text-white h-100" id="basic-addon1"><i
+                    class="mdi mdi-account fs-4"></i></span>
+              </div>
+              <input type="text" class="form-control form-control-lg" name="username" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required />
+            </div>
+            <!-- email -->
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-danger text-white h-100" id="basic-addon1"><i class="mdi mdi-email fs-4"></i></span>
+              </div>
+              <input type="text" class="form-control form-control-lg" name="email" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1" required />
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-warning text-white h-100" id="basic-addon2"><i class="mdi mdi-lock fs-4"></i></span>
+              </div>
+              <input type="password" class="form-control form-control-lg" name="password" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" required />
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-info text-white h-100" id="basic-addon2"><i class="mdi mdi-lock fs-4"></i></span>
+              </div>
+              <input type="password" class="form-control form-control-lg" name="cpassword" placeholder=" Confirm Password" aria-label="Password" aria-describedby="basic-addon1" required />
+            </div>
+          </div>
+        </div>
+        <div class="row border-top border-secondary">
+          <div class="col-12">
+            <div class="form-group">
+              <div class="pt-3 d-grid">
+                <button class="btn btn-block btn-lg btn-info" type="submit">
+                  Register
+                </button>
+                <a href="/admin/login" class="pt-3 text-white text-center">Already registered? login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+</div>
